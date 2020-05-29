@@ -11,6 +11,6 @@ public class TestController {
         @GetMapping("/test")
         @ResponseBody
         public void hello() {
-        String name = "Victor";
+        String name = "Mike";
             System.out.println("Hello From Spring");        }
     }
